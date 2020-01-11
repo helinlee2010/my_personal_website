@@ -1,0 +1,127 @@
+.top-container {
+  background-color: #7f78d2;
+  display:block;
+  height: 850px;
+  width: 95%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  padding-top: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("../img/purple_mountain.jpg");
+}
+.quote {
+  color: white;
+  font: 900 33px Montserrat;
+  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.rose-frame{
+  z-index: 10;
+  margin: 0 10%;
+  position: relative;
+}
+.smile {
+  z-index: 20;
+  margin: 130px 270px;
+  position: absolute;
+}
+.greeting{
+  width: 50%;
+  margin: 5% auto 0 auto;
+  padding: 3px 0 3px 0;
+  color: #5A098C;
+  text-align: center;
+  text-decoration: inherit;
+  text-shadow: 0 5px 25px rgba(228, 228, 251, 0.3);
+  background-color:rgba(251, 228, 251, 0.7);
+  border-radius: 5%;
+}
+.border {
+  width: 300px;
+  height: 4px;
+  margin: 70px auto 70px auto;
+  border-width: 10px 0 0 0;
+  border-style: dotted;
+  border-color: #7F6B8C;
+/*top right bottom left*/
+}
+
+hr{
+  color: #6d0c74;
+  style: doote
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.intro{
+  background-color:#fef6fb;
+  color: #5A098C;
+  padding: 30px 60px;
+  font-family: sans-serif;
+  line-height: 1.6;
+  padding-left:145px;
+  padding-right: 120px;
+}
+
+.techsection{
+  margin-left: auto;
+  color: #5A098C;
+  height: 450px;
+  text-shadow: 0 5px 25px rgba(228, 228, 251, 0.3);
+}
+.skills{
+  width: 25%;
+  float: left;
+  margin-left:150px;
+  line-height: 2;
+  font-size: 1.25rem;
+  padding-top: 87px;;
+}
+.languages{
+  width: 25%;
+  float: left;
+  margin-left:50px;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+.strength{
+  padding-top: 1px;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.gallery{
+  color: #5A098C;
+  background-color: #758184;
+  text-align: center;
+  width: 90%;
+  height: 400px;
+  margin:auto;
+  padding-top: 20px;
+  border-radius: 20%;
+}
+
+.footer{
+  height: 150px;
+  background-color:#fef6fb;
+  padding: 150px, auto, auto, 130px;
+  text-align: center;
+}
+
+.icon{
+  display: inline-block;
+  background-color: #5f6caf;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin:60px 10px;
+}
+
+
+p{
+  font-size: 1.5rem;
+}
+body {
+  background-color: #fdecff;
