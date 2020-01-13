@@ -46,23 +46,25 @@
 /*top right bottom left*/
 }
 
-hr{
-  color: #6d0c74;
-  style: doote
-}
-
-.underline {
-  text-decoration: underline;
-}
-
 .intro{
   background-color:#fef6fb;
   color: #5A098C;
-  padding: 30px 60px;
+  padding:30px 20px 30px 145px;
   font-family: sans-serif;
   line-height: 1.7;
-  padding-left:145px;
-  padding-right: 120px;
+  position: absolute;
+  margin-bottom: 200px;
+}
+
+.intro-text{
+  width: 60%;
+  margin-right: 10px;
+  float: left;
+}
+
+.img{
+  float: right;
+  width: 30%;
 }
 
 .intro-p{
@@ -70,6 +72,7 @@ hr{
 }
 
 .techsection{
+  margin-top: 500px;;
   margin-left: auto;
   color: #5A098C;
   height: 450px;
